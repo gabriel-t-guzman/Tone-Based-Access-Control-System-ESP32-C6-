@@ -31,7 +31,13 @@ Real bench testing inside the university laboratory showed excellent spectral in
 | **Ambient Noise** | 1200 | 980 | 1450 | `None` |
 
 ---
+##  Hardware Setup
 
+Here is the physical circuit implementation on the breadboard. The DC of the microphone maps directly to **ADC Channel 3** and the status LED indicator is routed to **GPIO 11**:
+
+![Hardware Circuit Setup](./img/montagem.jpeg)
+
+---
 ## How to Build and Run
 
 ### Prerequisites
